@@ -1,8 +1,27 @@
+/*** NAV BAR ***/
+
 #nav img {
   width: 5em;
 }
 
+/*** ABOUT SECTION ***/
 #self1 img {
   width: 15em;
   border-radius: 20px;
+}
+
+/*** PROJECTS SECTION ***/
+#projects a {
+  display: block;
+  height: 30px;
+  width: 100%;
+  text-align: center;
+}
+
+.proj1:hover {
+  background-color: orange;
+}
+
+.proj2 {
+  background-color: blue;
 }
