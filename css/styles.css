@@ -1,3 +1,7 @@
+* {
+  font-family: fantasy;
+}
+
 /*** NAV BAR ***/
 
 #navbar img {
@@ -7,6 +11,10 @@
 #nav-links {
   margin-top: 15px;
 }
+#nav-links li a {
+  color: #000;
+}
+
 /*** CONTENT ***/
 #content {
   margin-top: 80px;
