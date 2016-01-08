@@ -1,13 +1,21 @@
 /*** NAV BAR ***/
 
-#nav img {
-  width: 5em;
+#navbar img {
+  width: 6em;
 }
 
+#nav-links {
+  margin-top: 15px;
+}
+/*** CONTENT ***/
+#content {
+  margin-top: 80px;
+}
 /*** ABOUT SECTION ***/
 #self1 img {
   width: 15em;
   border-radius: 20px;
+  display: block;
 }
 
 /*** PROJECTS SECTION ***/
