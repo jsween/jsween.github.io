@@ -1,3 +1,8 @@
 #nav img {
   width: 5em;
 }
+
+#self1 img {
+  width: 15em;
+  border-radius: 20px;
+}
