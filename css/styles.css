@@ -1,5 +1,6 @@
 * {
   font-family: fantasy;
+
 }
 
 /*** NAV BAR ***/
@@ -85,9 +86,19 @@ h2 {
   background-color: green;
 }
 
+/*** CONTACT ***/
+#contact {
+    background-image: url(https://starbeamrainbowlabs.com/blog/images/042-symphony.png);
+    padding-left: 40px;
+}
+
 /*** FOOTER ***/
 #footer {
   margin-top: 25px;
   color: #006;
   font-size: .7em;
+}
+
+#footer p {
+  float: right;
 }
