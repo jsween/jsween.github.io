@@ -13,15 +13,31 @@
 /*** PROJECTS SECTION ***/
 #projects a {
   display: block;
-  height: 30px;
+  /*height: 30px;*/
   width: 100%;
   text-align: center;
+  padding: 15px 0 15px 0;
+  text-decoration: none;
+}
+
+#projects a h3 {
+
+  font-size: 5em;
+}
+
+.small {
+  font-size: 20px;
+  display: block;
 }
 
 .proj1:hover {
   background-color: orange;
 }
 
-.proj2 {
+.proj2:hover {
   background-color: blue;
+}
+
+.proj3:hover {
+  background-color: green;
 }
