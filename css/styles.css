@@ -16,6 +16,7 @@
 #nav-links {
   margin-top: 15px;
 }
+
 #nav-links li a {
   /*color: #000;*/
   font-size: 2em;
@@ -34,6 +35,7 @@ h2 {
 #self1 {
   margin-left: 70px;
 }
+
 #self1 img {
   margin-top: 70px;
   margin-bottom: 20px;
@@ -41,6 +43,7 @@ h2 {
   border-radius: 20px;
   display: block;
 }
+
 #self1 a {
   padding-left: 70px;
 }
@@ -53,9 +56,9 @@ h2 {
 #projects {
   text-align: center;
 }
+
 #projects a {
   display: block;
-  /*height: 30px;*/
   width: 100%;
   text-align: center;
   padding: 25px 0 15px 0;
@@ -75,11 +78,13 @@ h2 {
 }
 
 .proj1:hover {
-  background-color: orange;
+  background-color: #FF7F00;
+  color: #eee;
 }
 
-.proj2:hover {
-  background-color: blue;
+.proj2:hover, .proj2:hover h3 {
+  background-color: #0000FF;
+  color: #fff;
 }
 
 .proj3:hover {
@@ -90,6 +95,7 @@ h2 {
 #contact {
     background-image: url(https://starbeamrainbowlabs.com/blog/images/042-symphony.png);
     padding-left: 40px;
+    padding-bottom: 40px;
 }
 
 /*** FOOTER ***/
@@ -101,4 +107,5 @@ h2 {
 
 #footer p {
   float: right;
+  margin-bottom: 40px;
 }
