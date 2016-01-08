@@ -73,3 +73,10 @@ h2 {
 .proj3:hover {
   background-color: green;
 }
+
+/*** FOOTER ***/
+#footer {
+  margin-top: 25px;
+  color: #006;
+  font-size: .7em;
+}
