@@ -57,6 +57,10 @@ h2 {
   text-align: center;
 }
 
+#projects h2 {
+  font-weight: bold;
+}
+
 #projects a {
   display: block;
   width: 100%;
@@ -89,8 +93,13 @@ h2 {
 
 .proj3:hover {
   background-color: green;
+  color: #fff;
 }
 
+.proj4:hover {
+  background-color: #6ed3cf;
+  color: #fff;
+}
 /*** CONTACT ***/
 #contact {
     background-image: url(https://starbeamrainbowlabs.com/blog/images/042-symphony.png);
